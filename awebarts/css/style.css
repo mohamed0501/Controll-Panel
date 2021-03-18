@@ -1,0 +1,98 @@
+#rr {color: darkred;}
+
+html {
+    background: #333;
+}
+header{
+    padding :20px;
+}
+header img {
+ width: 20%;
+ float: left;   
+}
+header h2{
+    float: right; font-family: cursive; font-size: 16px;margin-top: 50px
+}
+.clear {
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+.contentes{
+    border-radius: 10px; border :1px solid #ddd;
+    min-height: 350px;padding: 20px; 
+}
+.logincontent{
+    width: 800px;margin: 50px auto;
+}
+aside{
+    width: 20%;
+    float: left;
+    min-height: 200px;
+    margin-right:20px;
+}
+aside a {
+    display: block;
+    margin:5px;
+
+}
+.btn-danger {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 7px 15px;
+}
+.btn-danger:hover{
+    text-decoration: none;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    border-top: 2px dashed #ddd;
+    margin-top: 50px;
+}
+footer p {
+    font-family: Verdana; font-size: 16px;
+}
+
+.regster{width: 40%; float: left;min-height: 500px;  }
+.login {width:30%; float:right; margin-right: 50px; }
+.regster h1,.login h1{font-size: 20px;font-family: verdana;}
+.regster input[type = "text"] , .login input[type = "text"],
+.regster input[type = "mail"] , .login input[type = "mail"],
+.regster input[type = "password"] , .login input[type = "password"]{
+    display: block; width: 250px; border: 1px solid #ddd; margin: 10px;
+    font-size: 15px;
+}
+.MSform {width: 400px ; float: left;}
+.MSform label {width: 150px ; float: left;}
+.MSform {width: 250px ; height: 25px; padding: 3px 5px ;
+     border: 1px solid #999;border-radius: 5px;
+    display: block; margin-bottom: 10px;}
+.MSform textarea {width: 250px ; border: 1px solid #999;border-radius: 5px;
+    margin-bottom: 10px ;height: 90px;}
+.MSform input [type = "submit"]{ height: 40px; text-align: center; margin: 50px 150px}    
+.add h1 {font-family: cursive; border-bottom: 1px dashed #999; font-size: 16px;
+       margin-bottom: 15px;}
+ .add input [type = "submit"] {margin-bottom: 20px 150px;}
+ .sectionTable{border: 1px solid #999;border-radius: 5px;} 
+ .sectionTable th{ color : #999; background: #ff9 !important; border: 1px solid #999;border-radius: 5px; } 
+ .sectionTable td {border: 1px solid #999;border-radius: 5px;}
+ .sectionTable td img{max-width: 25px; margin: 4px; }   
+ 
+ 
+ .newpage input[type= "file"]{border:0; }
+ .newpage textarea{ width: 550px ; height:250; }
+
+
+ .imga{}
+ .imags{width :550}
+ .imga img {width: 150px; margin-right: 10px; margin-bottom: 10px;height: 100px;}
+ .imga img:last-child { margin-right: 0px;}
+ .imga p {float :left; width:170px; padding: 10px;margin: 5px;
+          border:1px solid #999;border-radius: 10px;}
+ .checkbox{width: 20px !important;z-index: 999;position: absolute;}    
+ 
+ 
+
+
+
